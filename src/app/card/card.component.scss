@@ -1,14 +1,17 @@
 .card-container{
+  // display: flex;
+  // flex-direction: column;
+  // align-items:flex-start;
+ 
   background-color: #FFFFFF;
   border-radius: 20px;
   padding: 24px;
   width: 336px;
-
+  color: #111111;
   font-size: 14px;
 
   .card-info{
     margin-block: 24px;
-    color: #111111;
     font-weight: 500;
     .btn-card{
       padding: 4px 12px;
@@ -33,6 +36,18 @@
     gap: 12px;
     .name{
       font-weight: 800;
+    }
+  }
+  .translate{
+    display: flex;
+    gap:10px;
+    justify-content: center;
+    .btn-lang{
+      border: none;
+      border-radius: 5px;
+      padding: 10px;
+      margin-block-start: 10px;
+      background-color: rgba($color: #F4D04E , $alpha: 0.5);
     }
   }
 }
