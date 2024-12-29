@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+
+body
+{
+  font-family: "Figtree", serif;
+  background-color: #F4D04E;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
