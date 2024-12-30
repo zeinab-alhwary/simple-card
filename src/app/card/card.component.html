@@ -1,5 +1,5 @@
-<div class="card-container">
-  <img src="../../assets/Blog Image.png" alt="card-image">
+<div class="card-container" dir="{{ 'DIR'| translate}}">
+  <img src="assets/Blog Image.png" alt="card-image">
   <div class="card-info">
     <button class="btn-card">{{"LEARNING"|translate}}</button>
     <p class="published">{{"PUBLISHED"|translate}} 21 Dec 2023</p>
@@ -7,9 +7,9 @@
     <p class="text">{{"TEXT"|translate}}.</p>
   </div>
   <div class="user">
-    <img src="../../assets/profile-image.svg" alt="image-profile">
+    <img src="assets/profile-image.svg" alt="image-profile">
     <p class="name">{{"NAME"|translate}}</p>
-   
+
   </div>
   <div class="translate">
     <button (click)="translate.use('ar')" class="btn-lang">Ar</button>
